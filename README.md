@@ -303,13 +303,19 @@ func main() {
 
 The suggestions ChatGPT came up with were similar to CoPilot, but it did a much better job of implementing its suggestions in its suggested code. It suggested I add error handling for the strconv.ParseFloat function which my first version lacked. This was also a suggestion of CoPilot, but CoPilot did not implement this suggestion in its example code while ChatGPT did. It also suggested writing a helper function to avoid code repetition and implemented that idea in a slightly different way than CoPilot. Finally, it suggested I think about chaning the format of the output of my script and further documenting my functions. Finally, when I asked for ideas for further improvements to the code, it came up with an interesting list of ideas for improvements including adding dynamic regression counts instead of always being pinned at 4 regressions, command line inputs, other metrics like R-squared in its outputs, and handling missing data. 
 
-I was incredibly impressed by the suggested code that ChatGPT came up with. The first few chunks that it suggested would have taken some effort to stitch together into a working  script, but when  asked for a full working example script, it came up with a fully operational improved version of my existing code. It 
+I was incredibly impressed by the suggested code that ChatGPT came up with. The first few chunks that it suggested would have taken some effort to stitch together into a working  script, but when  asked for a full working example script, it came up with a fully operational improved version of my existing code. I copied and pasted the revised code into VS Code and it worked and generated the correct regression results with no edits. I was prepared for the code to have some errors that required changes to get it to run, but this code had no issues. 
 
 
 
 # Summary of Experience with AI
 
+I was underwhelmed with GitHub CoPilot and incredibly impressed with ChatGPT. I thought after completing the CoPilot portion of the assignment that AI didn't really have anything to offer the tech startup worried about monthly burn, but I think by using ChatGPT their programmers could really become much more productive. I will say however, that the tasks ChatGPT succeeded in helping me with were relatively simple as I am still a Go newbie. It is possible that programmers at a tech start up are good enough that they would gain significantly less by getting the assistance of ChatGPT.  I would suggest that the company attempt to run a trial period where its programmers attempt similar tests to what I have done in this assignment. Possibly for their next round of development, there is a control group that uses no AI, one group that uses CoPilot, and one that uses ChatGPT. After that round is over, the results of those three groups can be assesed and compared and a more informed decision can be made. If my experience is any indication though, I would guess that the ChatGPT group will come out on top.
 
+Utilized resources: 
+
+https://code.visualstudio.com/docs/copilot/overview - somewhat useful
+
+https://chatgpt.com/share/67311b23-e248-800d-a9d7-5c3420826ac6 - incredibly useful
 
 
 
